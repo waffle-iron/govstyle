@@ -2,13 +2,15 @@
 
 # govstyle
 
-A package for producing graphics following the [gov.uk](http://www.gov.uk) style.
+A package for applying a [gov.uk](http://govuk-elements.herokuapp.com/) style to plots created in the R package [ggplot2](https://github.com/hadley/ggplot2).
+This package is in an early stage of development; the intended end point is that it should be fully compliant with the gov.uk style guide.
+The best source of docmentation is the vignettes.
 
 ## Functions
 
 * `theme_gov()`: Theme to be applied to plots produced in [ggplot2]() to give a government statistics publication feel.
-* `check_pal()`: Display the a gov.uk recommended colours in a pie chart.
-* `gov_cols`: A vector of the [gov.uk]() recommended colours.
+* `gov_cols`: A vector of the [gov.uk](http://govuk-elements.herokuapp.com/colour/#colour-extended-palette) extended palette.
+* `check_pal()`: Display the extended gov.uk palette in a pie chart.
 
 ## Examples
 
